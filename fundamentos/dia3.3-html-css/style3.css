@@ -1,0 +1,10 @@
+div:hover {
+    text-align: center; 
+    border: 5px solid black;
+    height: 40px;
+    width: 200px;
+    line-height: 5px;
+    transition: all;
+    background-color: red;
+}
+

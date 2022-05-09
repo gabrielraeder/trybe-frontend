@@ -1,0 +1,15 @@
+hi, p, ol, li {
+    text-align: center;
+}
+
+li:hover {
+    background-color: greenyellow;
+    width: 100px;
+    
+}
+li:active{
+    color: red;
+}
+ol, ul {
+    list-style: none;
+}
