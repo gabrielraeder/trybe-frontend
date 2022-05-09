@@ -1,0 +1,31 @@
+h1 {
+    color: orangered;
+    width: 65px;
+}
+h2 {
+    color: green;
+    font-size: 2em;
+}
+body {
+    background-color: rgb(255, 400, 200);
+    font-size: 20px;
+}
+p {
+    font-family: monospace, sans-serif;
+}
+#extinct-specie {
+    background-color: wheat;
+}
+#description {
+    color: orange;
+    background-color: teal;
+}
+.list-style {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
