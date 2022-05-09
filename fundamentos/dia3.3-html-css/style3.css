@@ -1,0 +1,47 @@
+div:hover:nth-child(3) {
+    text-align: center; 
+    border: 5px solid black;
+    height: 40px;
+    width: 200px;
+    line-height: 5px;
+    transition: all;
+    background-color: red;
+}
+div:hover:nth-child(4) {
+    text-align: center; 
+    border: 5px solid black;
+    height: 40px;
+    width: 200px;
+    line-height: 5px;
+    transition: all;
+    background-color: orange;
+}
+div:hover:nth-child(5) {
+    text-align: center; 
+    border: 5px solid black;
+    height: 40px;
+    width: 200px;
+    line-height: 5px;
+    transition: all;
+    background-color: green;
+}
+div:hover:nth-child(6) {
+    text-align: center; 
+    border: 5px solid black;
+    height: 40px;
+    width: 200px;
+    line-height: 5px;
+    transition: all;
+    background-color: rgb(88, 11, 11);
+}
+div:hover:nth-child(7) {
+    text-align: center; 
+    border: 5px solid black;
+    height: 40px;
+    width: 200px;
+    line-height: 5px;
+    transition: all;
+    background-color: rgb(252, 146, 146);
+}
+
+

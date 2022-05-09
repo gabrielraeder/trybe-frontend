@@ -1,0 +1,80 @@
+ol li:nth-child(even) {
+    color: green;
+    background-color: yellow;
+    border: 5px solid white;
+    width: 35%;
+    border-radius: 20px;
+    padding: 2px 5px;
+}
+
+ol li:nth-child(odd) {
+    text-transform: lowercase;
+    background-color: yellow;
+    border: 5px solid white;
+    width: 35%;
+    border-radius: 20px;
+    padding: 2px 5px;
+
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+h1 em {
+    font-size: 40px;
+    border: 2px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: bold;
+}
+
+.lingua {
+    color: rgb(35, 35, 209);
+}
+li.java {
+    background-color: palevioletred;
+    width: 85px;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 4px 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.links ul li:hover:nth-child(1) {
+    background-color: orange;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+.links ul li:hover:nth-child(2) {
+    background-color: greenyellow;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+.links ul li:hover:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.137);
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+.links ul li:hover:nth-child(4) {
+    background-color: yellow;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;  
+}
+.links ul li:hover:nth-child(5) {
+    background-color: green;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;  
+}
