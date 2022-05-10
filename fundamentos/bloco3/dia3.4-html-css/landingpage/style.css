@@ -26,7 +26,7 @@ ul {
     margin-left: 25px;
     margin-right: 25px;
 }
-#about, #pictures-title {
+#about, #pictures-title, #social {
     font-size: 32px;
     margin-left: 50px;
 }
@@ -37,4 +37,16 @@ ul {
     width: 300px;
     float: left;
     margin-right: 15px;
+}
+#second {
+    margin-bottom: 250px;
+}
+.socialmedia-icon {
+    width: 64px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+a {
+    text-decoration: none;
 }
