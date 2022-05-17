@@ -5,10 +5,12 @@ let info = {
     recorrente: 'SIM',
 };
 
+// EXERCICIO 03
 for (let key in info) {
     console.log(key);
 }
 
+// EXERCICIO 04
 for (let key in info) {
     console.log(info[key]);
 }
