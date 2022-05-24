@@ -1,19 +1,19 @@
 function createDaysOfTheWeek() {
     const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
     const weekDaysList = document.querySelector('.week-days');
-  
+
     for (let index = 0; index < weekDays.length; index += 1) {
-      const days = weekDays[index];
-      const dayListItem = document.createElement('li');
-      dayListItem.innerHTML = days;
-  
-      weekDaysList.appendChild(dayListItem);
+        const days = weekDays[index];
+        const dayListItem = document.createElement('li');
+        dayListItem.innerHTML = days;
+
+        weekDaysList.appendChild(dayListItem);
     };
-  };
-  
-  createDaysOfTheWeek();
-  
-  // Escreva seu código abaixo.
+};
+
+createDaysOfTheWeek();
+
+// Escreva seu código abaixo.
 
 function setDays() {
     const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
@@ -22,7 +22,7 @@ function setDays() {
     for (let index = 0; index < dezDaysList.length; index += 1) {
         let day = dezDaysList[index]
         let dayItem = document.createElement('li');
-        
+
         dayItem.innerHTML = day;
         if (day === 24 || day === 31) {
             dayItem.className = 'holiday day'
@@ -39,7 +39,7 @@ function setDays() {
 
         daysList.appendChild(dayItem)
     }
-  }
+}
 
 setDays()
 
@@ -54,19 +54,27 @@ function createButton(string) {
 
 createButton('Feriados')
 
+const holiday = document.querySelectorAll('.holiday')
+
 function feriados() {
-    let holiday = document.querySelectorAll('.holiday')
-    for (let item of holiday) {
-        item.style.color = 'red';
-    }       
+    for (let key in holiday) {
+        holiday[key].style.color = 'red';
+        if (holiday[key].className === 'novo') {
+            holiday[key].style.color = '#666'
+            if (holiday[key].innerText == 25) {
+                holiday[key].className = 'holiday friday day'
+            } else {
+                holiday[key].className = 'holiday day'
+            }
+        } else {
+            holiday[key].style.color = 'red';
+            holiday[key].className = 'novo'
+        }
+
+    }
 }
 
-function resetColor() {
-    let holiday = document.querySelectorAll('.holiday')
-    for (let item of holiday) {
-        item.style.color = '#666';
-    } 
-}
+
 
 function createButton2(string) {
     let button = document.createElement('button')
@@ -80,10 +88,18 @@ createButton2('Sexta-feira')
 
 function sexta() {
     let sexta = document.querySelectorAll('.friday')
+    let dias = [4, 11, 18, 25]
     for (let index = 0; index < sexta.length; index += 1) {
-        sexta[index].innerText = 'SEXTOU!';
-    }   
+        
+        if (sexta[index].innerText.includes('SEXTOU')) {
+            sexta[index].innerText = dias[index]
+        } else {
+            sexta[index].innerText = 'SEXTOU!';
+        }
+    }
+
 }
+
 
 function zoom(event) {
     event.target.style.fontSize = '30px'
@@ -95,7 +111,7 @@ function reset(event) {
 
 
 document.querySelector('#btn-holiday').addEventListener('click', feriados)
-document.querySelector('#btn-holiday').addEventListener('dblclick', resetColor)
+
 document.querySelector('#btn-friday').addEventListener('click', sexta)
 document.querySelector('#days').addEventListener('mouseover', zoom)
 document.querySelector('#days').addEventListener('mouseout', reset)
@@ -120,8 +136,8 @@ legendaCor('red')
 
 let div = document.querySelector('.my-tasks').lastChild
 
-div.addEventListener('click', function (){
-    
+div.addEventListener('click', function () {
+
     if (div.className.includes('taskSelected')) {
         div.className = 'task'
     }
@@ -130,9 +146,14 @@ div.addEventListener('click', function (){
     }
 })
 
-function referTask() {
-    let color = document.querySelector('.taskSelected').style.color
-    document.querySelector('#days').style.color = color
+function referTask(event) {
+    let color = document.querySelector('.taskSelected').style.backgroundColor
+
+    if (event.target.style.color === color)
+        event.target.style.color = '#666'
+    else {
+        event.target.style.color = color
+    }
 }
 
 document.querySelector('#days').addEventListener('click', referTask)
