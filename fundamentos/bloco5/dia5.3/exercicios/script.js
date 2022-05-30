@@ -149,8 +149,9 @@ div.addEventListener('click', function () {
 function referTask(event) {
     let color = document.querySelector('.taskSelected').style.backgroundColor
 
-    if (event.target.style.color === color)
+    if (event.target.style.color === color) {
         event.target.style.color = '#666'
+    }
     else {
         event.target.style.color = color
     }
