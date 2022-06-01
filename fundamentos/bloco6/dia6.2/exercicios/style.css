@@ -1,0 +1,30 @@
+#formulario {
+  border: 2px solid black;
+  width: 500px;
+  vertical-align: auto;
+  padding: 15px;
+}
+
+/* #email {
+  margin: 6px;
+}
+#name {
+  margin: 0 3px;
+} */
+
+#choices {
+  margin-top: 10px;
+}
+
+#date {
+  margin: 10px;
+}
+
+button {
+  margin: 10px 20px;
+  padding: 3px 10px;
+}
+
+.marginChoice {
+  margin-left: 10px;
+}
