@@ -41,11 +41,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
-- [X] 5-5: _[Projeto - Meme Generator](https://github.com/gabrielraeder/trybe-projects/tree/main/03-5-meme-generator)_
-- [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/gabrielraeder/trybe-projects/tree/main/03-1-pixels-art)_
-- [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/gabrielraeder/trybe-projects/tree/main/03-3-to-do-list)_
-- [X] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/gabrielraeder/trybe-projects/tree/main/03-4-Color-guess)_
-- [X] 5-7: _[Projeto - Carta Misteriosa](https://github.com/gabrielraeder/trybe-projects/tree/main/03-2-mistery-letter)_
+- [X] 5-5: _[Projeto - Meme Generator](https://github.com/gabrielraeder/trybe-projects/tree/main/Projetos/Fundamentos/03-5-meme-generator)_
+- [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/gabrielraeder/trybe-projects/tree/main/Projetos/Fundamentos/03-1-pixels-art)_
+- [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/gabrielraeder/trybe-projects/tree/main/Projetos/Fundamentos/03-3-to-do-list)_
+- [X] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/gabrielraeder/trybe-projects/tree/main/Projetos/Fundamentos/03-4-Color-guess)_
+- [X] 5-7: _[Projeto - Carta Misteriosa](https://github.com/gabrielraeder/trybe-projects/tree/main/Projetos/Fundamentos/03-2-mistery-letter)_
 
 ##### Bloco 6: HTML & CSS avançado
 
