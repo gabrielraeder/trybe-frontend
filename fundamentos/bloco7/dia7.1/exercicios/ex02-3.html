@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ex2.3</title>
+</head>
+
+<body>
+  <button id="btn">#VQV</button>
+  <h1 id="contador">0</h1>
+
+  
+  
+  <script>
+    document.getElementById('btn').addEventListener('click', () => {
+      let click = document.getElementById('contador');
+      let inicio = click.innerText
+      let total = parseInt(inicio) + 1
+      click.innerText = total
+    })
+  </script>
+</body>
+
+</html>
