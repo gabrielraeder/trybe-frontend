@@ -1,4 +1,4 @@
-const myRemove = require('./sum.js')
+const myRemove = require('./myRemove')
 
 describe('myRemove function', () => {
   it('')
