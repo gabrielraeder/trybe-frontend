@@ -1,5 +1,4 @@
 const sum = require('./sum.js');
-const myRemove = require('./sum.js')
 
 describe('sum function', () => {
   it('recebe sum(4,5) e retorna 9', () => { //ex1.1
@@ -14,8 +13,4 @@ describe('sum function', () => {
     expect(() => sum(4, '5')).toThrow(Error);
     expect(() => sum(4, '5')).toThrow('parameters must be numbers') //ex1.4
   })
-})
-
-describe('myRemove function', () => {
-  it('')
-})
+});
