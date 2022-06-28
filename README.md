@@ -72,32 +72,27 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [ ] 8-6: _[Projeto - Zoo functions]()_
 
-##### Bloco 9: Assincronicidade & Callbacks
-
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
-
-##### Bloco 10: Jest
-
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assíncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: Introdução - React
+##### Bloco 9: JavaScript e Testes Assíncronos
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [ ] 9-3: _Jest - Testes Assíncronos_
+- [ ] 9-4: _J_[Projeto - Carrinho de Compras]()_
 
-##### Bloco 12: React
+##### Bloco 10: Introdução - React
 
-- [ ] 12-1: _Components com estado_
-- [ ] 12-2: _Eventos e formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [ ] 10-1: _'Hello, world!' no React!_
+- [ ] 10-2: _Componentes React_
+- [ ] 10-3: _[Projeto - Sistema Solar]()_
+
+##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
+
+- [ ] 11-1: _Components com estado e eventos_
+- [ ] 11-2: _Formulários no React_
+- [ ] 11-3: _[Projeto - Tryunfo]()_
 
 ##### Bloco 13: React
 
