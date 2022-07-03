@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#my-games {
+  height: 500px;
+}
+
+#games {
+  padding: 0;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  padding: 7px 0;
+}
+
+header h1, header h3 {
+  margin: 5px;
+}
+
+header h3 {
+  margin-bottom: 30px;
+  text-align: center;
+}
