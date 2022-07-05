@@ -1,6 +1,6 @@
 const createOneGame = () => {
   const array = [];
-  for (let index = 0; array.length < 6; index += 1) {
+  while (array.length < 6) {
     let num = Math.ceil(Math.random() * 59)
     if (!array.includes(num)) {
       array.push(num)
@@ -9,19 +9,20 @@ const createOneGame = () => {
   return array.sort((a, b) => a - b);
 }
 
-const createElementI = () => {
-  const element = document.createElement('i');
-  element.setAttribute('class', 'games')
-  document.getElementById('games').appendChild(element)
+const createElement = (...itens) => {
+  const element = document.createElement(itens[0]);
+  element.setAttribute('class', itens[1]);
+  document.getElementById(itens[2]).appendChild(element)
 }
 
 
 const addGames = () => {
   const numberGames = document.getElementById('num-jogos')
   for (let index = 0; index < numberGames.value; index += 1) {
-    createElementI();
+    createElement('i', 'games', 'games');
     const jogo = createOneGame()
     document.getElementById('games').lastElementChild.innerHTML = jogo.join(' -- ')
+    createElement('hr', 'hr', 'games');
   }
   numberGames.value = '';
 }
@@ -33,6 +34,7 @@ const clearGames = () => {
   while (jogos.firstChild){
     jogos.removeChild(jogos.lastChild)
   }
+  createElement('hr', 'hr', 'games');
 }
 
 document.getElementById('reset-btn').addEventListener('click', clearGames)
