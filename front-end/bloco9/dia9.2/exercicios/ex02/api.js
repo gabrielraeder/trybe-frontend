@@ -7,13 +7,13 @@ const fetchCoins = async () => {
   const {data} = await fetch(apiCoin)
     .then((item) => item.json())
     .then((coin) => coin)
-    .catch((error) => console.log(`Erro encontrado ${error}`));
+    .catch((error) => console.log(`Erro encontrado em coincap.io ${error}`));
   
   
   const real = await fetch(rates)
     .then((moedas) => moedas.json())
     .then((moeda) => moeda)
-    .catch((erro) => console.log(`Erro encontrado ${erro}`));
+    .catch((erro) => console.log(`Erro encontrado em currency-api ${erro}`));
   
   const firstTen = data.filter((element, index) => index < 10);
 
