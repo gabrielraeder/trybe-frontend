@@ -3,7 +3,10 @@ import Pokedex from './Pokedex';
 
 function App() {
   return (
-    <Pokedex/>
+    <div>
+      <h1>POKEDEX</h1>
+      <Pokedex/>
+    </div>
   );
 }
 
