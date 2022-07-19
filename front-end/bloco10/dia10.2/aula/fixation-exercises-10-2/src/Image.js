@@ -1,3 +1,4 @@
+// arquivo Image.js
 import React from 'react';
 
 class Image extends React.Component {
