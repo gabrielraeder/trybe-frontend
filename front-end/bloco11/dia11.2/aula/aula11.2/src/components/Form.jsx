@@ -36,6 +36,12 @@ class Form extends Component {
   
     this.setState({
       [name]: value,
+    }, () => {
+      const { estadoFavorito } = this.state;
+      const estadolength = estadoFavorito.length > 100 ? true : false;
+      this.setState({
+        formularioComErros: estadolength
+      })
     });
   }
 
@@ -59,8 +65,7 @@ class Form extends Component {
           <br />
             <EstadoFavorito 
             estadoFavorito={this.state.estadoFavorito} 
-            handler={this.handleChange}
-            errorFunc={this.handleError} />
+            handler={this.handleChange} />
           <br />
             <Checkbox check={this.state.check} handler={this.handleChange} />
           <br />
