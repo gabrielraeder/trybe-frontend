@@ -102,27 +102,28 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 13: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias Ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]()_
+- [X] 13-1: _Metodologias Ágeis_
+- [X] 13-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 14: Testes em React
 
-- [ ] 15-1: _Testando React com a React Testing Library_
-- [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [ ] 15-3: _[Projeto - Testes em React]()_
+- [ ] 14-1: _RTL - Primeiros Passos_
+- [ ] 14-2: _RTL - Mocks e Inputs_
+- [ ] 14-3: _RTL - Testando React Router_
+- [ ] 14-4: _[Projeto - Testes em React]()_
 
 ##### Bloco 15: Introdução ao Redux
 
-- [ ] 16-1: _Introdução ao Redux_
-- [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - Prática_
-- [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes síncronos com React-Redux_
-- [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
+- [ ] 15-1: _Introdução ao Redux_
+- [ ] 15-2: _React com Redux - Parte 1_
+- [ ] 15-3: _React com Redux - Prática_
+- [ ] 15-4: _React com Redux - Parte 2_
+- [ ] 15-5: _Testes síncronos com React-Redux_
+- [ ] 15-6: _[Projeto - Trybe Wallet]()_
 
-##### Bloco 17: Projeto React
+##### Bloco 16: Projeto React
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
 
 ##### Bloco 18: React & Context API
 
