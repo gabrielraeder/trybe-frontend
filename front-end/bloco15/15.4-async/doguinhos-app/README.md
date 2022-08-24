@@ -1,4 +1,4 @@
-# Dia 15.2
+# Dia 15.4
 
 #### Exercises
 - [x] _[redux-thunk](https://github.com/gabrielraeder/exercise-redux-thunk)_
