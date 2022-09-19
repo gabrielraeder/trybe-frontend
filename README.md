@@ -107,34 +107,34 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 14: Testes em React
 
-- [ ] 14-1: _RTL - Primeiros Passos_
-- [ ] 14-2: _RTL - Mocks e Inputs_
-- [ ] 14-3: _RTL - Testando React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+- [X] 14-1: _RTL - Primeiros Passos_
+- [X] 14-2: _RTL - Mocks e Inputs_
+- [X] 14-3: _RTL - Testando React Router_
+- [X] 14-4: _[Projeto - Testes em React]()_
 
 ##### Bloco 15: Introdução ao Redux
 
-- [ ] 15-1: _Introdução ao Redux_
-- [ ] 15-2: _React com Redux - Parte 1_
-- [ ] 15-3: _React com Redux - Prática_
-- [ ] 15-4: _React com Redux - Parte 2_
-- [ ] 15-5: _Testes síncronos com React-Redux_
-- [ ] 15-6: _[Projeto - Trybe Wallet]()_
+- [X] 15-1: _Introdução ao Redux_
+- [X] 15-2: _React com Redux - Parte 1_
+- [X] 15-3: _React com Redux - Prática_
+- [X] 15-4: _React com Redux - Parte 2_
+- [X] 15-5: _Testes síncronos com React-Redux_
+- [X] 15-6: _[Projeto - Trybe Wallet]()_
 
 ##### Bloco 16: Projeto React
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [X] 16-1: _[Projeto - Jogo de Trivia]()_
 
-##### Bloco 18: React & Context API
+##### Bloco 17: React & Context API
 
-- [ ] 18-1: _Context API do React_
-- [ ] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [X] 17-1: _Context API do React_
+- [X] 17-2: _React Hooks - useState e useContext_
+- [X] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
-##### Bloco 19: Projeto Final de Front-end
+##### Bloco 18: Projeto Final de Front-end
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+- [ ] 18-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
