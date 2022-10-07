@@ -130,107 +130,108 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 17-1: _Context API do React_
 - [X] 17-2: _React Hooks - useState e useContext_
 - [X] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [X] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 ##### Bloco 18: Projeto Final de Front-end
 
-- [ ] 18-1: _[Projeto - App de Receitas]()_
+- [X] 18-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: Introdução - Bancos de dados relacionais
+##### Seção 1: Docker: Utilizando Containers
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [ ] 1-1: _Utilizando Containers_
+- [ ] 1-2: _Manipulando Imagens Docker_
+- [ ] 1-3: _Orquestrando containers com Docker Compose _
+- [ ] 1-4: _[Projeto - Docker To-do-list]()_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Seção 2: Funções SQL, JOINs e Normalização
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [ ] 2-1: _Funções mais usadas no SQL_
+- [ ] 2-2: _Descomplicando JOINs_
+- [ ] 2-3: _Transformando idéias em um modelo de dados_
+- [ ] 2-4: _[Projeto - All for One]()_
 
-##### Bloco 22: Bancos de dados relacionais
+##### Seção 3: Bancos de dados relacionais
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
+- [ ] 3-1: _Transformando ideias em um modelo de banco de dados_
+- [ ] 3-2: _Normalização, Formas Normais e Dumps_
+- [ ] 3-3: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [ ] 3-4: _[Projeto - One For All]()_
 
-##### Bloco 23: Introdução - NoSQL
+##### Seção 4: Intro - NodeJS
 
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+- [ ] 4-1: _Runtime Assíncrono_
+- [ ] 4-2: _API REST com Express_
+- [ ] 4-3: _Testes de Integração_
+- [ ] 4-4: _Express e Middlewares_
+- [ ] 4-5: _Express e MySQL_
+- [ ] 4-6: _[Projeto - Talker Manager]()_
 
-##### Bloco 24: Updates
+##### Seção 5: Arquitetura de Software: Model, Service e Controller
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+- [ ] 5-1: _Camada Model_
+- [ ] 5-2: _Camada Service_
+- [ ] 5-3: _Camada Controller_
+- [ ] 5-4: _[Projeto - Store Manager]()_
 
-##### Bloco 25: Aggregation Framework
+##### Seção 6: Node.js: ORM e Autenticação
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+- [ ] 6-1: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 6-2: _ORM - Associations 1:1 e 1:N_
+- [ ] 6-3: _ORM - Associations N:N e Transactions_
+- [ ] 6-4: _JWT - (JSON Web Token)_
+- [ ] 6-5: _[Projeto - API de Blogs]()_
 
-##### Bloco 26: Intro - NodeJS
+##### Seção 7: Deployment
 
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+- [ ] 7-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 7-2: _Deploy Docker & Heroku_
+- [ ] 7-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 27: NodeJS
+##### Seção 8: Introdução a TypeScript
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
+- [ ] 8-1: _Introdução ao TypeScript_
+- [ ] 8-2: _Tipagem Estática e Generics_
+- [ ] 8-3: _Express com TypeScript_
+- [ ] 8-4: _[Projeto - Trybesmith]()_
 
-##### Bloco 28: NodeJS
+##### Seção 9: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+- [ ] 9-1: _Introdução à Orientação a Objetos_
+- [ ] 9-2: _Herança e Interface_
+- [ ] 9-3: _Polimorfismo_
+- [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 9-5: _SOLID - Princípios L e I_
+- [ ] 9-6: _[Projeto - Trybers and Dragons]()_
 
-##### Bloco 29: NodeJS
+##### Seção 10: Projeto TFC - Trybe Futebol Clube
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+- [ ] 10-1: _[Projeto - Trybe Futebol Clube]()_
 
-##### Bloco 30: Introdução - Deploy
+##### Seção 11: Introdução - MongoDB
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [ ] 11-1: _MongoDB - Introdução_
+- [ ] 11-2: _Filter Operators_
+- [ ] 11-3: _Operadores de consulta_
+- [ ] 11-4: _Updates simples_
+- [ ] 11-5: _Updates complexos - Arrays_
+- [ ] 11-6: _[Projeto - Commerce]()_
 
-##### Bloco 31: Projeto
+##### Seção 12: MongoDB com Node.js e POO
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+- [ ] 12-1: _Mongoose e arquitetura MSC (Camada Model)_
+- [ ] 12-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [ ] 12-3: _[Projeto - Car Shop]()_
 
-##### Bloco 32: Arquitetura de Software
+##### Seção 13: Projeto - App de Delivery
 
-- [ ] 32-1: _Arquitetura - Princípios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas práticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]()_
+- [ ] 13-1: _[Projeto - App de Delivery]()_
 
-##### Bloco 33: Sockets
+##### Seção 14: MasterClass - VPS, CI/CD
 
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Projeto - Webchat]()_
-
-##### Bloco 34: Projeto
-
-- [ ] 34-1: _[Projeto - Trybeer V2]()_
+- [ ] 14-1: _VPS_
+- [ ] 14-2: _Dia 2_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
