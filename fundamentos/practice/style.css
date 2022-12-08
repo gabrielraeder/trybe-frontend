@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+
+#my-games {
+  height: 500px;
+  width: 80%;
+}
+
+#games {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  padding: 7px 0;
+  font-size: 25px;
+}
+
+header h1, header h3 {
+  margin: 5px;
+}
+
+header h3 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hr {
+  padding: 1px;
+  background-color: black;
+  width: 99%;
+}
